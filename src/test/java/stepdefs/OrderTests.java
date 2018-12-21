@@ -48,7 +48,8 @@ public class OrderTests {
     @AfterMethod
     public void teardown() {
         if (driver != null) {
-//            driver.quit();
+            driver.quit();
+            //I enabled driver.quit();
         }
     }
 
